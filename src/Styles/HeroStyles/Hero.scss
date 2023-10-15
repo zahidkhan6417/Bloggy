@@ -1,0 +1,72 @@
+@import "../global/boilerplate.scss";
+@import "../global/colors.scss";
+@import "../global/typography.scss";
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: $gray-bg-color;
+    position: relative;
+  
+    @media (max-width: 900px) {
+      height: auto;
+      padding: 11rem 0;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65rem;
+    gap: 10rem;
+    position: relative;
+  
+    @media (max-width: 900px) {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      gap: 3rem;
+    }
+  
+    @media (min-width: 1600px) {
+      margin-top: 6rem;
+    }
+  
+    @media (min-width: 1900px) {
+      margin-top: 10rem;
+    }
+}
+  
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+  
+    h1 {
+      font-size: $hero-size;
+      line-height: 1.2;
+      color: $black-shade;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+  
+      @media (max-width: 500px) {
+        font-size: 4rem;
+      }
+    }
+  
+    p {
+      font-size: $hero-text-size;
+      font-weight: 500;
+      color: #555555;
+      font-family: $text-font;
+      line-height: 1.6;
+  
+      @media (max-width: 900px) {
+        margin-bottom: 5rem;
+      }
+    }
+}

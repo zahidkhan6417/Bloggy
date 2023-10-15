@@ -1,0 +1,76 @@
+.login-section {
+  background-color: black;
+}
+.login-section .login-banner h1 {
+  color: white;
+}
+.login-section .login-page form .notif {
+  background-color: #ff0336;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 5px 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.login-section .login-page form .email-field, .login-section .login-page form .pass-field {
+  color: white;
+  font-size: 2rem;
+  font-weight: medium;
+  margin-bottom: 3px;
+}
+.login-section .login-page form .email__field, .login-section .login-page form .pass__field {
+  font-size: 1.7rem;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  outline: 2px solid #ff0336;
+  background-color: transparent;
+  color: white;
+}
+.login-section .login-page form .btn-1 {
+  background-color: #ff0336;
+  color: white;
+  font-size: 2rem;
+  font-weight: medium;
+  padding: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+.login-section .login-page form .new-user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 16px;
+}
+.login-section .login-page form .new-user p {
+  color: white;
+  font-size: 1.5rem;
+}
+.login-section .login-page form .new-user .new-signup {
+  color: #ff0336;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .login-section {
+    /* Responsive styles for screens up to 768px width */
+  }
+  .login-section .email__field, .login-section .pass__field {
+    font-size: 1.4rem;
+  }
+  .login-section .btn-1 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .login-section {
+    /* Responsive styles for screens up to 480px width */
+  }
+  .login-section .email__field, .login-section .pass__field {
+    font-size: 1.2rem;
+  }
+  .login-section .btn-1 {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=SignUp.css.map */

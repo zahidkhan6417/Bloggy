@@ -1,0 +1,111 @@
+.login-banner {
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+.login-banner h1 {
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.login-page {
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 40px 20px;
+  background-color: black;
+  width: 55rem;
+  min-width: 450px;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+}
+
+.notif {
+  color: white;
+  background-color: #ff0336;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.email-field {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5px;
+  font-weight: medium;
+}
+
+.email__field {
+  font-size: 1.7rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  outline: 2px solid #ff0336;
+}
+
+.pass-field {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 3px;
+  font-weight: medium;
+  outline: 2px solid #ff0336;
+}
+
+.pass__field {
+  font-size: 1.7rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  outline: 2px solid #ff0336;
+}
+
+.btn-1 {
+  background-color: #ff0336;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: medium;
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.new-user {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin-top: 16px;
+}
+@media (min-width: 450px) {
+  .new-user {
+    flex-direction: column;
+  }
+}
+
+.new-user p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.new-signup {
+  color: #ff0336;
+  font-weight: bold;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=SignIn.css.map */

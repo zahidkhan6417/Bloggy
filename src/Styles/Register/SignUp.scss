@@ -1,0 +1,91 @@
+.login-section {
+    background-color: black;
+  
+    .login-banner {
+      h1 {
+        color: white;
+      }
+    }
+  
+    .login-page {
+      form {
+        .notif {
+          background-color: #ff0336;
+          color: white;
+          font-weight: bold;
+          font-size: 1.6rem;
+          padding: 5px 10px;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+  
+        .email-field, .pass-field {
+          color: white;
+          font-size: 2rem;
+          font-weight: medium;
+          margin-bottom: 3px;
+        }
+  
+        .email__field, .pass__field {
+          font-size: 1.7rem;
+          padding: 4px 8px;
+          margin-bottom: 10px;
+          width: 100%;
+          outline: 2px solid #ff0336;
+          background-color: transparent;
+          color: white;
+        }
+  
+        .btn-1 {
+          background-color: #ff0336;
+          color: white;
+          font-size: 2rem;
+          font-weight: medium;
+          padding: 4px;
+          width: 100%;
+          margin-top: 10px;
+        }
+  
+        .new-user {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          margin-top: 16px;
+  
+          p {
+            color: white;
+            font-size: 1.5rem;
+          }
+  
+          .new-signup {
+            color: #ff0336;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      /* Responsive styles for screens up to 768px width */
+      .email__field, .pass__field {
+        font-size: 1.4rem;
+      }
+  
+      .btn-1 {
+        font-size: 1.8rem;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      /* Responsive styles for screens up to 480px width */
+      .email__field, .pass__field {
+        font-size: 1.2rem;
+      }
+  
+      .btn-1 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  
