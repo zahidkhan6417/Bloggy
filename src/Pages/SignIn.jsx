@@ -1,12 +1,13 @@
 import { useState } from "react";
-//import { UserAuth } from "../context/AuthContext";
+import bloggy1 from "../images/bloggy1.png"
+import { UserAuth } from "../Context/AuthContext.js";
 import { Link, useNavigate } from "react-router-dom";
-//import Footer from "../components/Footer/Footer";
+import "../Styles/Register/SignIn.css"
 
 function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  //const { user, logIn } = UserAuth();
+  const { user, logIn } = UserAuth();
   const navigate = useNavigate();
   const [error, setError] = useState("");
 
@@ -20,7 +21,7 @@ function SignIn() {
     e.preventDefault();
     setError("");
     try {
-      await SignIn(email, password);
+      await logIn(email, password);
       navigate("/#home");
       goTop();
     } catch (error) {
@@ -32,37 +33,37 @@ function SignIn() {
   return (
     <>
       <section className="login-section">
-        <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
-            Sign In
-          </h1>
+        <div className="login-banner">
         </div>
         {/* form  */}
-        <div className="page-padding py-[10rem] flex justify-center">
+        <div className="login-page">
+          <img src={bloggy1} className="side-img" alt="bloggy"></img>
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col py-40 px-20 bg-black w-[55rem] min450:w-full  shadow-xl"
+            className="forms"
           >
+            <h1 className="header"> Sign In </h1>
+            <p className="header-para">Welcome Back! Please enter your details.</p>
             {error ? (
-              <p className="text-white bg-[#ff0336] font-bold text-[1.6rem] px-10 py-5 text-center mb-10">
+              <p className="notif">
                 Wrong email or password
               </p>
             ) : null}
-            <label className="text-[2rem] text-white mb-3 font-medium ">
+            <label className="email-field">
               Email
             </label>
             <input
-              className="text-[1.7rem] px-8 py-4 mb-10 w-full outline-[#ff0336] "
-              placeholder="gymate@gymail.com"
+              className="email__field"
+              placeholder="bloggy@gymail.com"
               type="email"
               onChange={(e) => setEmail(e.target.value)}
             ></input>
 
-            <label className="text-[2rem] text-white mb-3 font-medium outline-[#ff0336] outline-2">
+            <label className="pass-field">
               Password
             </label>
             <input
-              className="text-[1.7rem] px-8 py-4 mb-10 w-full outline-[#ff0336] "
+              className="pass__field"
               placeholder="password"
               type="password"
               onChange={(e) => setPassword(e.target.value)}
@@ -70,24 +71,25 @@ function SignIn() {
 
             <button
               type="submit"
-              className="bg-[#ff0336] text-white py-4 font-medium text-[2rem] w-full mt-10"
+              className="btn-1"
             >
               Sign In
             </button>
-            <div className="flex gap-4 items-center mt-16 min450:flex-col">
-              <p className="text-white text-[1.5rem]">New to Gymate?</p>
+            <div className="new-user">
+              <p className="user-para">New to Bloggy?</p>
               <Link
                 to="/signup"
-                className="text-[#ff0336] font-bold text-[1.5rem]"
+                className="sign-link"
               >
-                Sign Up
+                Sign Up for free
               </Link>
             </div>
-            <p className="text-[#ffffffbc] text-[1.4rem] mt-3">
-              <span className="text-[#ff0336]">Test Account</span> -
-              gymate@gymail.com <span className="text-[#ff0336]"> / </span>
+            {/* <p className="test-account">
+              <span className="text">Test Account</span> -
+              gymate@gymail.com <span className="text"> / </span>
               testpassword123
-            </p>
+            </p> */}
+            
           </form>
         </div>
         {/* <Footer /> */}

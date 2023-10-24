@@ -4,12 +4,33 @@
   display: flex;
 }
 
-.login-banner h1 {
-  color: white;
-  position: absolute;
-  bottom: 35px;
-  font-size: 3rem;
+.header {
+  color: #008170;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
+}
+
+.header1 {
+  color: #008170;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-para {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  color: #008170;
+  font-size: 1.5rem;
+}
+
+.header-para1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  color: #008170;
 }
 
 .login-page {
@@ -18,17 +39,23 @@
   justify-content: center;
 }
 
-form {
-  padding: 40px 20px;
-  background-color: black;
-  width: 55rem;
-  min-width: 450px;
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+.side-img {
+  width: 25%;
+  box-shadow: 0 0px 24px rgb(0, 0, 0);
+}
+
+.forms {
+  padding: 50px 30px;
+  background-color: white;
+  width: 50rem;
+  height: 50rem;
+  min-width: 400px;
+  box-shadow: 0px 0px 24px rgb(0, 0, 0);
 }
 
 .notif {
   color: white;
-  background-color: #ff0336;
+  background-color: #4F4A45;
   font-weight: bold;
   font-size: 1.6rem;
   padding-left: 10px;
@@ -37,11 +64,13 @@ form {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 10px;
+  width: 60%;
+  margin-left: 8rem;
 }
 
 .email-field {
   font-size: 2rem;
-  color: white;
+  color: #008170;
   margin-bottom: 5px;
   font-weight: medium;
 }
@@ -54,15 +83,14 @@ form {
   padding-bottom: 4px;
   margin-bottom: 10px;
   width: 100%;
-  outline: 2px solid #ff0336;
+  border-bottom: 2px solid #000;
 }
 
 .pass-field {
   font-size: 2rem;
-  color: white;
+  color: #008170;
   margin-bottom: 3px;
   font-weight: medium;
-  outline: 2px solid #ff0336;
 }
 
 .pass__field {
@@ -73,23 +101,23 @@ form {
   padding-bottom: 4px;
   margin-bottom: 10px;
   width: 100%;
-  outline: 2px solid #ff0336;
+  border-bottom: 2px solid #000;
 }
 
 .btn-1 {
-  background-color: #ff0336;
+  background-color: #4F4A45;
   color: white;
   padding-top: 4px;
   padding-bottom: 4px;
   font-weight: medium;
   font-size: 2rem;
-  width: 100%;
+  width: 60%;
   margin-bottom: 10px;
+  margin-left: 8rem;
 }
 
 .new-user {
   display: flex;
-  gap: 4rem;
   align-items: center;
   margin-top: 16px;
 }
@@ -99,13 +127,30 @@ form {
   }
 }
 
-.new-user p {
-  color: white;
+.user-para {
+  color: #008170;
   font-size: 1.5rem;
 }
 
 .new-signup {
-  color: #ff0336;
+  color: #008170;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.sign-link {
+  color: #008170;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.sign-link:hover {
+  color: #4F4A45;
+}
+
+.test-account {
+  color: #008170;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  margin-left: 7%;
 }/*# sourceMappingURL=SignIn.css.map */
