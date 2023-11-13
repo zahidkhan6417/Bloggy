@@ -3,6 +3,7 @@ import bloggy1 from "../images/bloggy1.png"
 //import { UserAuth } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import "../Styles/Register/SignIn.css"
+import Navbar from "../Components/Navbar";
 
 function SignIn() {
   const [email, setEmail] = useState("");
@@ -52,6 +53,7 @@ function SignIn() {
 
   return (
     <>
+      <Navbar />
       <section className="login-section">
         <div className="login-banner">
         </div>

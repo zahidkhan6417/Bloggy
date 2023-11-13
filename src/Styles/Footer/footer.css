@@ -1,0 +1,59 @@
+footer {
+  background-color: #e0e2e4;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  font-size: 18px;
+  color: black;
+}
+
+.contact-info span {
+  font-size: 14px;
+  color: black;
+}
+
+.container {
+  margin: 0 0;
+}
+
+.contact {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.about {
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+  .col-md-4 {
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,88 @@
+.arrow {
+  background-color: #464646;
+}
+
+#mouse-scroll {
+  display: block; /* Corrected property name */
+  position: fixed;
+  margin: auto;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%); /* Removed duplicate transform property */
+  z-index: 9999;
+}
+
+#mouse-scroll span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg); /* Removed duplicate transform property */
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin: 0 0 3px 5px;
+}
+
+#mouse-scroll .mouse {
+  height: 21px;
+  width: 14px;
+  border-radius: 10px;
+  transform: none; /* Removed duplicate transform property */
+  border: 2px solid rgba(0, 0, 0, 0);
+  top: 170px;
+}
+
+#mouse-scroll .down-arrow-1,
+#mouse-scroll .down-arrow-2,
+#mouse-scroll .down-arrow-3 {
+  animation: mouse-scroll 1s infinite; /* Removed vendor prefixes */
+}
+
+#mouse-scroll .down-arrow-1 {
+  animation-delay: 0.1s; /* Corrected property name */
+  animation-direction: alternate;
+}
+
+#mouse-scroll .down-arrow-2 {
+  animation-delay: 0.2s; /* Corrected property name */
+  animation-direction: alternate;
+}
+
+#mouse-scroll .down-arrow-3 {
+  animation-delay: 0.3s; /* Corrected property name */
+  animation-direction: alternate;
+}
+
+#mouse-scroll .mouse-in {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+#mouse-scroll .mouse-in {
+  animation: animated-mouse 1.2s ease infinite; /* Removed vendor prefixes */
+}
+
+@keyframes animated-mouse {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=downarrow.css.map */

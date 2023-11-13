@@ -1,13 +1,14 @@
 import { useState } from "react";
 import bloggy1 from "../images/bloggy1.png"
-import { UserAuth } from "../Context/AuthContext.js";
+// import { UserAuth } from "../Context/AuthContext.js";
 import { Link, useNavigate } from "react-router-dom";
 import "../Styles/Register/SignIn.css"
+import Navbar from "../Components/Navbar.jsx"
 
 function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { user, logIn } = UserAuth();
+  // const { user, logIn } = UserAuth();
   const navigate = useNavigate();
   const [error, setError] = useState("");
 
@@ -21,7 +22,7 @@ function SignIn() {
     e.preventDefault();
     setError("");
     try {
-      await logIn(email, password);
+      await SignIn(email, password);
       navigate("/#home");
       goTop();
     } catch (error) {
@@ -32,6 +33,7 @@ function SignIn() {
 
   return (
     <>
+      <Navbar />
       <section className="login-section">
         <div className="login-banner">
         </div>

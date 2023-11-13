@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    background-color: $gray-bg-color;
+    height: 80vh;
+    background-color: #ffeded;;
     position: relative;
   
     @media (max-width: 900px) {
@@ -22,6 +22,7 @@
     align-items: center;
     height: 65rem;
     gap: 10rem;
+    // margin-left: 5rem;
     position: relative;
   
     @media (max-width: 900px) {
@@ -44,7 +45,9 @@
     display: flex;
     flex-direction: column;
     max-width: 50rem;
-    position: relative;
+    // position: left;
+    // margin-right: 50rem;
+
   
     h1 {
       font-size: $hero-size;

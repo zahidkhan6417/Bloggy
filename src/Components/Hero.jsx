@@ -1,5 +1,7 @@
 import React from 'react'
 import "../Styles/HeroStyles/Hero.scss"
+import RecommendedPost from './RecommendedPost'
+import Footer from './Footer'
 
 function Hero() {
   return (
@@ -13,6 +15,9 @@ function Hero() {
                 </div>
             </div>
         </section>
+        <RecommendedPost />
+        <Footer />
+
     </>
   )
 }

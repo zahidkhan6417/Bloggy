@@ -1,0 +1,84 @@
+.post {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1090px;
+}
+
+.post-top {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  align-items: center;
+  font-weight: 600;
+}
+
+.rcm-posts {
+  display: grid;
+  margin: 0px 10px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 100px;
+  -moz-column-gap: 1fr;
+       column-gap: 1fr;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styles for the Blog Title */
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Styles for the Author */
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Styles for the Content */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  /* Adjustments for smaller screens */
+  .post-container {
+    padding: 10px;
+  }
+  .post-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rcm-posts {
+    grid-template-columns: 1fr;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}/*# sourceMappingURL=RecommendedPost.css.map */

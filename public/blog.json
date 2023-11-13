@@ -1,0 +1,95 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Getting Started with React",
+        "author": "John Doe",
+        "content": "In this blog post, we'll explore the basics of React and how to set up your first React application."
+      },
+      {
+        "id": 2,
+        "title": "Node.js Best Practices",
+        "author": "Jane Smith",
+        "content": "Learn about best practices when working with Node.js, including modularization, error handling, and security considerations."
+      },
+      {
+        "id": 3,
+        "title": "CSS Grid Layout Tutorial",
+        "author": "Alice Johnson",
+        "content": "Discover the power of CSS Grid Layout and how to use it to create responsive and flexible page layouts."
+      },
+      {
+        "id": 4,
+        "title": "JavaScript ES6 Features",
+        "author": "Bob Williams",
+        "content": "Explore the features introduced in ECMAScript 2015 (ES6) and how they can enhance your JavaScript code."
+      },
+      {
+        "id": 5,
+        "title": "Introduction to GraphQL",
+        "author": "Eva Davis",
+        "content": "Learn the basics of GraphQL, a query language for APIs, and how it compares to traditional RESTful APIs."
+      },
+      {
+        "id": 6,
+        "title": "Dockerizing Your Node.js App",
+        "author": "Chris Wilson",
+        "content": "Containerize your Node.js application using Docker for easy deployment and scalability."
+      },
+      {
+        "id": 7,
+        "title": "Responsive Web Design Principles",
+        "author": "Sophie Brown",
+        "content": "Understand the key principles of responsive web design and how to create websites that work well on various devices."
+      },
+      {
+        "id": 8,
+        "title": "Testing React Applications with Jest",
+        "author": "Alex Turner",
+        "content": "A comprehensive guide to using Jest for testing React components and applications."
+      },
+      {
+        "id": 9,
+        "title": "MongoDB vs. MySQL: A Comparison",
+        "author": "Michael Garcia",
+        "content": "Compare the features and use cases of MongoDB and MySQL, two popular database systems."
+      },
+      {
+        "id": 10,
+        "title": "GraphQL vs. REST: Which One to Choose?",
+        "author": "Laura Adams",
+        "content": "Evaluate the differences between GraphQL and RESTful APIs and decide which one is better suited for your projects."
+      },
+      {
+        "id": 11,
+        "title": "Creating a Blog with Gatsby",
+        "author": "David Lee",
+        "content": "Build a fast and dynamic blog using Gatsby, a React-based static site generator."
+      },
+      {
+        "id": 12,
+        "title": "Introduction to Redux",
+        "author": "Emily Miller",
+        "content": "Learn the fundamentals of state management in React applications using Redux."
+      },
+      {
+        "id": 13,
+        "title": "Sass vs. Less: A Styling Preprocessor Comparison",
+        "author": "Daniel Turner",
+        "content": "Compare the features and syntax of Sass and Less, two popular CSS preprocessor languages."
+      },
+      {
+        "id": 14,
+        "title": "Securing Your Node.js API with JWT",
+        "author": "Olivia White",
+        "content": "Implement JSON Web Tokens (JWT) for secure authentication and authorization in Node.js applications."
+      },
+      {
+        "id": 15,
+        "title": "Deploying a React App to Heroku",
+        "author": "Ryan Johnson",
+        "content": "Follow step-by-step instructions to deploy your React application to Heroku, a cloud platform as a service (PaaS)."
+      }
+    ]
+  }
+  

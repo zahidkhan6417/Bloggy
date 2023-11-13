@@ -1,3 +1,7 @@
+.login-section {
+  background-color: #f0efef;
+}
+
 .login-banner {
   position: relative;
   justify-content: center;
@@ -6,24 +10,23 @@
 
 .header {
   color: #008170;
-  margin-bottom: 1.5rem;
-  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8em;
   font-weight: bold;
 }
 
 .header1 {
   color: #008170;
-  padding-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .header-para {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   font-family: "Merriweather", serif;
   color: #008170;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .header-para1 {
@@ -34,21 +37,22 @@
 }
 
 .login-page {
-  padding: 10rem 0;
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
+  margin-top: 8rem;
 }
 
 .side-img {
-  width: 25%;
+  width: 20%;
   box-shadow: 0 0px 24px rgb(0, 0, 0);
 }
 
 .forms {
   padding: 50px 30px;
   background-color: white;
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
   min-width: 400px;
   box-shadow: 0px 0px 24px rgb(0, 0, 0);
 }
@@ -56,27 +60,26 @@
 .notif {
   color: white;
   background-color: #4F4A45;
-  font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1rem;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 10px;
-  width: 60%;
+  width: 40%;
   margin-left: 8rem;
 }
 
 .email-field {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #008170;
   margin-bottom: 5px;
   font-weight: medium;
 }
 
 .email__field {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
@@ -87,14 +90,14 @@
 }
 
 .pass-field {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #008170;
   margin-bottom: 3px;
   font-weight: medium;
 }
 
 .pass__field {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
@@ -110,8 +113,8 @@
   padding-top: 4px;
   padding-bottom: 4px;
   font-weight: medium;
-  font-size: 2rem;
-  width: 60%;
+  font-size: 1.7rem;
+  width: 50%;
   margin-bottom: 10px;
   margin-left: 8rem;
 }
@@ -119,7 +122,7 @@
 .new-user {
   display: flex;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 @media (min-width: 450px) {
   .new-user {
@@ -129,7 +132,8 @@
 
 .user-para {
   color: #008170;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .new-signup {
@@ -141,7 +145,7 @@
 .sign-link {
   color: #008170;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .sign-link:hover {
   color: #4F4A45;
@@ -149,8 +153,35 @@
 
 .test-account {
   color: #008170;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: "Merriweather", serif;
-  margin-left: 7%;
+  margin-left: 10%;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+  .login-page {
+    padding: 2rem 0;
+    margin-top: 12rem;
+  }
+  .side-img {
+    width: 20%;
+  }
+  .forms {
+    width: 100%;
+    min-width: auto;
+    padding: 20px;
+  }
+  .notif {
+    width: 80%;
+    margin-left: 0;
+  }
+  .btn-1 {
+    width: 80%;
+    margin-left: 0;
+  }
+  .new-user {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=SignIn.css.map */
