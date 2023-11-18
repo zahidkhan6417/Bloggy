@@ -4,7 +4,7 @@ import  Home from "./Pages/Home"
 import  About from "./Pages/About"
 import  Story from "./Pages/Story"
 import  Write from "./Pages/Write"
-import  Contact from "./Pages/Contact"
+import  MemberShip from "./Pages/MemberShip"
 import  SignIn from './Pages/SignIn'
 import SignUp from './Pages/SignUp'
 
@@ -19,7 +19,7 @@ function App() {
         <Route index path="/about" element={<About />} />
         <Route index path="/story" element={<Story />} />
         <Route index path="/write" element={<Write />} />
-        <Route index path="/contact" element={<Contact />} />
+        <Route index path="/membership" element={<MemberShip />} />
       </Routes>
     </>
   );

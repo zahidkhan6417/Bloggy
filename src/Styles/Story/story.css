@@ -59,11 +59,10 @@
   display: block; /* corrected */
   position: absolute;
   left: 50%;
-  top: 720px;
+  top: 715px;
   -webkit-transform: translateX(-50%);
   z-index: 9999;
-  margin-right: 25rem;
-  padding-right: 60rem;
+  padding-right: 55rem;
 }
 
 #mouse-scroll span {

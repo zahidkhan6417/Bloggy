@@ -58,6 +58,7 @@
   }
   .arrow {
     background-color: #464646;
+
   }
   
   #mouse-scroll {
@@ -65,11 +66,12 @@
     position: absolute;
     // margin: auto;
     left: 50%;
-    top: 720px;
+    top: 715px;
     -webkit-transform: translateX(-50%);
     z-index: 9999;
-    margin-right: 25rem;
-    padding-right: 60rem;
+    // margin-right: 25rem;
+    padding-right: 55rem;
+    
   }
   
   #mouse-scroll span {

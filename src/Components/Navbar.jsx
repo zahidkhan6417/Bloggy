@@ -37,8 +37,8 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/contact">
-                Contact
+              <Link onClick={openNav} to="/membership">
+                Membership
               </Link>
             </li>
           </ul>
@@ -72,8 +72,8 @@ function Navbar() {
             </li>
             <li>
               {" "}
-              <Link className="contact-link" to="/contact">
-                Contact
+              <Link className="contact-link" to="/membership">
+                Membership
               </Link>
             </li>
           </ul>
