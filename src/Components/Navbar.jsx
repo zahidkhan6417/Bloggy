@@ -3,7 +3,6 @@ import Bloggy from "../images/bloggy.png";
 import { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import '../Styles/NavbarStyles/Navbar.scss'
-import '../'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
